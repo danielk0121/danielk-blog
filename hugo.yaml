@@ -1,4 +1,4 @@
-baseURL: https://danielk0121.github.io
+baseURL: https://danielk0121.github.io/danielk-blog/ # 레포지토리 이름까지 포함해야 합니다.
 languageCode: ko-kr
 title: danielk0121 블로그
 theme: ["PaperMod"]
