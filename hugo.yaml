@@ -2,3 +2,40 @@ baseURL: https://danielk0121.github.io/danielk-blog/ # 레포지토리 이름까
 languageCode: ko-kr
 title: danielk0121 블로그
 theme: ["PaperMod"]
+
+# 홈화면 우측상단 메뉴 버튼
+menu:
+  main:
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 10 # weight: 메뉴 항목의 표시 순서를 결정하며, 숫자가 낮을수록 먼저 표시됩니다.
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # search 메뉴, 검색을 위해 필요
+
+params:
+  homeInfoParams:
+    Title: "홈페이지 상단 소개글 (Home-Info) 제목"
+    Content: | 
+      홈페이지 상단 소개글 내용이 적히는 공간입니다.  
+      지금은 공사중.  
+      여기는 마크다운 문법을 지원합니다.  
+      각 문장 뒤에 스페이스바를 2개 추가하면 줄바꿈이 됩니다.
+
+# 게시글들이 태그로 분류 되도록 분류 체계 추가
+taxonomies: # 분류 체계
+  tag: "tags"
+  category: "categories"
+
