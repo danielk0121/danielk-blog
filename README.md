@@ -1,9 +1,10 @@
 ## 참고
-- PagerMod 테마 사용
+- 블로그 url : https://danielk0121.github.io/danielk-blog/
+- 빌드/배포 : github actions, pages
+- 마크다운 웹빌더 : hugo
+- 테마 : PagerMod
   - 데모 페이지 : https://adityatelange.github.io/hugo-PaperMod/
   - 데모 페이지 소스 : https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite
-- 빌드/배포 : github actions, pages
-- 배포 url : https://danielk0121.github.io/danielk-blog/
 
 ---
 ## todo
