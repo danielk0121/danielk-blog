@@ -26,6 +26,7 @@ outputs:
     - JSON # search 메뉴, 검색을 위해 필요
 
 params:
+  ShowReadingTime: true # 읽기 예상 시간 표시
   homeInfoParams:
     Title: "홈페이지 상단 소개글 (Home-Info) 제목"
     Content: | 
