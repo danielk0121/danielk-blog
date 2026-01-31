@@ -1,2 +1,7 @@
 /.idea/
 /out/
+
+# Hugo
+/public/
+/resources/
+.hugo_build.lock

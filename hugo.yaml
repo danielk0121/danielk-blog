@@ -1,4 +1,4 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://danielk0121.github.io
+languageCode: ko-kr
+title: danielk0121 블로그
 theme: ["PaperMod"]
