@@ -40,5 +40,5 @@
     - 로컬에서 작업 중 확인하고 싶다면 hugo server -D 또는 
     - hugo server --buildDrafts 명령어를 사용하면 초안까지 포함해서 볼 수 있습니다. 
 - ㅁㄴㅇㄹ
-- ㅂㅈㄷㄱ
+- ㅂㅈㄷㄱ123
 - zxcv
