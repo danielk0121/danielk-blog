@@ -3,6 +3,7 @@ languageCode: ko-kr
 title: danielk0121 블로그
 theme: ["PaperMod"]
 
+
 # 홈화면 우측상단 메뉴 버튼
 menu:
   main:
@@ -19,11 +20,13 @@ menu:
       url: /search/
       weight: 30
 
+
 outputs:
   home:
     - HTML
     - RSS
     - JSON # search 메뉴, 검색을 위해 필요
+
 
 params:
   ShowReadingTime: true # 읽기 예상 시간 표시
@@ -41,6 +44,8 @@ params:
       연락은 이메일로...  
       email : maedk10@gmail.com  
       github : https://github.com/danielk0121  
+      네이버 블로그 : https://blog.naver.com/maedk01  
+
 
 # 게시글들이 태그로 분류 되도록 분류 체계 추가
 taxonomies: # 분류 체계
