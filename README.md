@@ -1,9 +1,11 @@
 ## 참고
-- PagerMod 테마 사용
+- 블로그 url : https://danielk0121.github.io/danielk-blog/
+- 빌드/배포 : github actions, pages
+- 마크다운 웹빌더 : hugo
+- 테마 : PagerMod
   - 데모 페이지 : https://adityatelange.github.io/hugo-PaperMod/
   - 데모 페이지 소스 : https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite
-- 빌드/배포 : github actions, pages
-- 배포 url : https://danielk0121.github.io/danielk-blog/
+
 
 ---
 ## todo
@@ -11,14 +13,17 @@
 - [x] 홈페이지 소개글 추가
 - [x] 이미지 있는 게시글 테스트 (이미지 상대 경로 테스트)
 - [x] 게시글 정렬 기준 파악 및 제어
+- [ ] 파비콘 이미지 등록
 - [ ] 페이징 more 기능 추가
 - [ ] 게시글 > 메타정보 > 날짜 입력 방법 개선
 - [ ] 테마 변경 후 테스트
 - [ ] SEO (검색 엔진 최적화)
 - [ ] 광고 붙이기
+- [ ] hugo 도커 사용 테스트
+
 
 ---
-## 메모
+## Hugo 사용 기록
 - 게시글 정렬 기준 파악 및 제어
   - weight : front matter 에 weight 추가, 값이 작은 순서대로 먼저 배치됨
   - date : 가중치가 같거나 없을 경우, 최신 날짜가 먼저 배치

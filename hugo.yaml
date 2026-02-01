@@ -10,13 +10,13 @@ menu:
       name: Archive
       url: /archives/
       weight: 10 # weight: 메뉴 항목의 표시 순서를 결정하며, 숫자가 낮을수록 먼저 표시됩니다.
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 20
     - identifier: tags
       name: Tags
       url: /tags/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 30
 
 outputs:
@@ -27,15 +27,20 @@ outputs:
 
 params:
   ShowReadingTime: true # 읽기 예상 시간 표시
+  ShowAllPagesInArchive: true
+  ShowPageNums: false
   homeInfoParams:
-    Title: "홈페이지 상단 소개글 (Home-Info) 제목"
+    Title: "danielk 기록 저장소"
     Content: | 
-      홈페이지 상단 소개글 내용이 적히는 공간입니다.  
-      지금은 공사중.  
-      여기는 마크다운 문법을 지원합니다.  
-      각 문장 뒤에 스페이스바를 2개 추가하면 줄바꿈이 됩니다.  
-      이메일, 깃헙주소 등등 추가 해야겠지요.  
-      home info div 세로 길이가 좀 긴거 같은데, 줄이고 싶네요.  
+      특별한 구별없이 관심있는 글을 기록합니다.  
+      네이버 블로그를 사용하다가, 마크다운 문서 지원이 안되서 이번 기회에 자체 블로그로 이동하였습니다.  
+      주로 마크다운으로 1차 문서 초안을 작성한 후, 블로그에 붙여넣기 하는 방법을 사용하려합니다.  
+      \-  
+      **관심 분야** : 개발, 전자기기, 자동차, 자율주행, 과학기술, 기술표준, 술, 음악, 영화, 부동산, 헬스케어, 건강, 재활치료  
+      \-  
+      연락은 이메일로...  
+      email : maedk10@gmail.com  
+      github : https://github.com/danielk0121  
 
 # 게시글들이 태그로 분류 되도록 분류 체계 추가
 taxonomies: # 분류 체계
