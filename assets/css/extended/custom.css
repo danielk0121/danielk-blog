@@ -15,7 +15,8 @@
 /* 마크다운 테이블 내용 빽빽하게 */
 .post-content table th,
 .post-content table td {
-    min-width: 30px !important; /* 최소 너비를 강제로 30px로 설정, 기본값 80px */
+    min-width: 40px !important; /* 최소 너비를 강제로 30px로 설정, 기본값 80px */
+    width: min-content;
     padding: 4px 2px !important; /* 패딩도 강제 적용, 기본값 8px 5px */
     box-sizing: border-box; /* 너비 계산 시 패딩 포함 */
 }
