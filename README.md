@@ -1,4 +1,7 @@
+
+---
 ## 참고
+
 - 블로그 url : https://danielk0121.github.io/danielk-blog/
 - 빌드/배포 : github actions, pages
 - 마크다운 웹빌더 : hugo
@@ -9,6 +12,7 @@
 
 ---
 ## todo task
+
 - [x] 우상단 메뉴 버튼 추가 : 아카이브, 서치, 태그
 - [x] 홈페이지 소개글 추가
 - [x] 이미지 있는 게시글 테스트 (이미지 상대 경로 테스트)
@@ -35,6 +39,7 @@
 
 ---
 ## Hugo 사용 기록
+
 - 게시글 정렬 기준 파악 및 제어
   - weight : front matter 에 weight 추가, 값이 작은 순서대로 먼저 배치됨
   - date : 가중치가 같거나 없을 경우, 최신 날짜가 먼저 배치
