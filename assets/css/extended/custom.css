@@ -1,0 +1,22 @@
+/* 페이퍼 모드 css 변경 가이드 : https://github.com/adityatelange/hugo-PaperMod/discussions/219 */
+
+/* font rem 계산 방식: 보통 브라우저의 기본 폰트 크기는 16px입니다. 따라서 16px * 0.95 = 15.2px가 됩니다. */
+
+/* 포스트 본문 내 문단(p) 크기만 세밀하게 조절할 경우 */
+.post-content {
+    font-size: 0.94rem; /* rem 단위를 사용하면 상대적인 조절이 쉽습니다 */
+    line-height: 1.6; /* 모바일 앱의 쾌적한 가독성을 위해 줄 간격을 1.6 정도로 설정 */
+}
+
+/* 제목(h1, h2 등) 크기 조절 */
+.post-content h1 { font-size: 1.6rem; }
+.post-content h2 { font-size: 1.4rem; }
+
+/* 마크다운 테이블 내용 빽빽하게 */
+.post-content table th,
+.post-content table td {
+    min-width: 30px !important; /* 최소 너비를 강제로 30px로 설정, 기본값 80px */
+    padding: 4px 2px !important; /* 패딩도 강제 적용, 기본값 8px 5px */
+    box-sizing: border-box; /* 너비 계산 시 패딩 포함 */
+}
+
