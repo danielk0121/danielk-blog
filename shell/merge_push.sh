@@ -19,3 +19,6 @@ echo "5. 변경 사항을 원격 release 브랜치로 푸시 중..."
 git push origin release
 
 echo "성공적으로 master가 release에 머지되고 푸시되었습니다!"
+
+echo "다시 master 브랜치로 체크아웃 합니다"
+git checkout master
