@@ -3,6 +3,9 @@
 # 에러 발생 시 스크립트 중단
 set -e
 
+echo "master 브랜치 체크아웃 상태를 초기 상태로 간주합니다"
+git checkout master
+
 echo "1. 로컬 저장소 정보 업데이트 중..."
 git fetch origin
 
