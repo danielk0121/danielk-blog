@@ -33,7 +33,7 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: false
   homeInfoParams:
-    Title: "danielk 기록 저장소"
+#    Title: "danielk 기록 저장소"
     Content: | 
       특별한 구별없이 관심있는 글을 기록합니다.  
       \-  
