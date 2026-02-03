@@ -2,7 +2,7 @@
 date: '2026-02-01T11:26:00+09:00'
 draft: false
 title: '모니터 해상도에 대하여'
-tags: ["모니터", "해상도", "fhd", "uhd"]
+tags: ["#모니터","#해상도","#픽셀","#디스플레이","#화질","#FHD","#UHD","#QHD","#순차주사","#화소"]
 cover:
     image: "/danielk-blog/posts/monitor_resolution/images/title.jpg"
     alt: "title"
