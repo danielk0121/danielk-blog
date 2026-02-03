@@ -2,7 +2,7 @@
 date: '2026-02-02T22:55:00+09:00'
 draft: false
 title: '백엔드 언어 특징 비교'
-tags: ["백엔드", "언어_비교", "python", "js", "typescript", "java", "php", "kotlin", "go", "rust"]
+tags: ["#백엔드", "#언어비교", "#타입시스템", "#프레임워크", "#고성능", "#Python", "#Java", "#Kotlin", "#Go", "#Rust"]
 ---
 
 
