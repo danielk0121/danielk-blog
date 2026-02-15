@@ -7,18 +7,16 @@
 [//]: # (draft: false)
 [//]: # (---)
 
-pdf 다운로드 : [이력서_권도균.pdf](이력서_권도균.pdf)
+pdf 다운로드 : [이력서_권도균.pdf](https://raw.githubusercontent.com/danielk0121/danielk-blog/master/doc/resume/resume_kwondokyun.pdf)
 
-## 소개
+## 제목1
 
-ㅁㄴㅇㄹ111
-
-## 제목
-
-ㅂㅈㄷㄱ222
+ㅂㅈㄷㄱ111
 
 ## 제목2
 
+ㅁㄴㅇㄹ222
+
+## 제목3
+
 ㅁㄴㅇㄹ333
-
-
