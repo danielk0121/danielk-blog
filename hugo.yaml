@@ -3,6 +3,8 @@ languageCode: ko-kr
 title: danielk0121 블로그
 theme: ["PaperMod"]
 
+author:
+  name: "danielk0121" # 여기에 본인 이름을 적으세요.
 
 # 홈화면 우측상단 메뉴 버튼
 menu:
