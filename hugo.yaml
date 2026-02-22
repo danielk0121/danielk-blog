@@ -3,9 +3,6 @@ languageCode: ko-kr
 title: danielk0121 블로그
 theme: ["PaperMod"]
 
-author:
-  name: "danielk0121" # 여기에 본인 이름을 적으세요.
-
 # 홈화면 우측상단 메뉴 버튼
 menu:
   main:
@@ -31,6 +28,8 @@ outputs:
 
 
 params:
+  author:
+    name: "danielk0121" # 여기에 본인 이름을 적으세요.
   ShowReadingTime: true # 읽기 예상 시간 표시
   ShowAllPagesInArchive: true
   ShowPageNums: false
