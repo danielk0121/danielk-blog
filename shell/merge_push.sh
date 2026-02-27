@@ -9,16 +9,16 @@ RELEASE_BRANCH="release"
 
 # --- 로그 함수 ---
 log_info() {
-  echo "[INFO] $1"
+  echo "[I] $1"
 }
 
 log_warn() {
-  echo "[WARN] $1"
+  echo "[W] $1"
 }
 
 # 에러 메시지 출력 후 즉시 종료 (if 문 등에서 사용)
 die() {
-  echo "[ERROR] $1"
+  echo "[E] $1"
   exit 1
 }
 
